@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DOServletInit>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DOServletInit>
    <Version>8.12.1.125</Version>
-   <ClientMinVersion>8.12.1.0</ClientMinVersion>
+   <ClientMinVersion>8.12.1.125</ClientMinVersion>
 </DOServletInit>
