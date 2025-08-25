@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <parent>
+    <groupId>VgsBuilder</groupId>
+    <artifactId>VgsBuilder</artifactId>
+    <version>${revision}</version>
+    <relativePath>../VgsBuilder/pom.xml</relativePath>
+  </parent>
+  <groupId>PkgSnappApi</groupId>
+  <artifactId>PkgSnappApi</artifactId>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifestSections>
+              <manifestSection>
+                <name>snapp-plugin</name>
+                <manifestEntries>
+                  <SnappMinWarVersion>8.12.2.1</SnappMinWarVersion>
+                  <SnappMinPosVersion>8.12.2.0</SnappMinPosVersion>
+                </manifestEntries>
+              </manifestSection>
+            </manifestSections>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

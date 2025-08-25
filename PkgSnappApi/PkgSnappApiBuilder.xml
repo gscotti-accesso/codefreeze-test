@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Create a Jar for PkgSnappApi">
+  <target name="create_run_jar">
+    <property name="version.num" value="8.12.2.15"/>
+    <jar destfile="...">
+      <manifest>
+        <section name="snapp-plugin">
+          <attribute name="SnappMinWarVersion" value="8.12.2.1"/>
+        </section>
+      </manifest>
+    </jar>
+  </target>
+</project>
