@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>VgsBuilder</groupId>
   <artifactId>VgsBuilder</artifactId>
   <version>${revision}</version>
   <packaging>pom</packaging>
   <properties>
-    <revision>8.12.4.0</revision>
-    <sonar.projectKey>VgsSnAppWIP</sonar.projectKey>
-    <sonar.projectName>SnApp WIP</sonar.projectName>
+    <revision>8.12.3.X</revision>
+    <sonar.projectKey>VgsSnApp8123X</sonar.projectKey>
+    <sonar.projectName>SnApp 8.12.3.X</sonar.projectName>
   </properties>
 </project>

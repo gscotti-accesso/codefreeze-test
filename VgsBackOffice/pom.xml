@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0">
   <parent>
     <groupId>VgsBuilder</groupId>
     <artifactId>VgsBuilder</artifactId>
@@ -16,7 +15,7 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <clientMinVersion>8.12.2.0</clientMinVersion>
+              <clientMinVersion>8.12.3.0</clientMinVersion>
             </manifestEntries>
           </archive>
         </configuration>
